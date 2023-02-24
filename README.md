@@ -3,7 +3,7 @@
 RingRTC is a middleware library providing [Signal Messenger](https://www.signal.org/) applications with video and voice calling services built on top of [WebRTC](https://webrtc.org/).
 
 ## Building
-
+ 
 For building RingRTC see [BUILDING.md](BUILDING.md).
 
 ## Contributing
