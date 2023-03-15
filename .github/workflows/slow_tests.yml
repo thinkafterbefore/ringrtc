@@ -59,7 +59,7 @@ jobs:
         uses: reactivecircus/android-emulator-runner@v2
         with:
           arch: ${{ matrix.arch }}
-          api-level: 31
+          api-level: 29
           force-avd-creation: false
           emulator-options: -no-window -noaudio -no-boot-anim
           script: echo "Generated AVD snapshot for caching."
@@ -68,7 +68,7 @@ jobs:
         uses: reactivecircus/android-emulator-runner@v2
         with:
           arch: ${{ matrix.arch }}
-          api-level: 31
+          api-level: 29
           force-avd-creation: false
           emulator-options: -no-snapshot-save -no-window -noaudio -no-boot-anim
           # It is correct that we use *debug*RingrtcLibDir below (specified by connectedCheck),
